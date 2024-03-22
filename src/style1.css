@@ -1,0 +1,176 @@
+@media (max-width: 991px) {
+
+    /*custom classes  */ 
+    .text-content{
+        width:100%;
+    }
+    .group1{
+        background-size: cover;
+    }
+    /* navbar brand */ 
+    .navigation-wrap .navbar-brand img{
+        height:3.8125rem
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: #575755;
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+        color:var(--black-color);
+    }
+
+    /* Banner Design */
+
+    .top-banner{
+        background-size: cover;
+    }
+    
+    .home_content{
+        margin-right: 0;
+    }
+    /* ABOUTUS */
+    .group2{
+        background-size: cover;
+    }
+    .aboutus_para{
+        width: 50%;
+    }
+
+    /* carousel design */ 
+    .testimonial-section .carousel-caption p{
+        padding:0;
+    }
+
+    /* footer link */ 
+    .footer .footer-social a i{
+        padding:0 0.75rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+    .navigation-wrap{
+        padding: 2rem 0 0;
+    }
+    /* top banner */ 
+    .top-banner{
+        background-size: cover;
+    }
+    .home_content{
+        margin-right: 0;
+        padding-right: 1rem;
+    }
+    /* ABOUTUS */
+    .group2{
+        background-size: cover;
+    }
+    
+    /* carousel design */ 
+    .testimonial-section .carousel-item{
+        padding:11rem 3.125rem;
+    }
+}
+
+@media (max-width:451px) {
+    .navigation-wrap{
+        padding: 2rem 0 0;
+    }
+
+    /* top banner */ 
+    .top-banner{
+        background-size: cover;
+    }
+    .home_content{
+        margin-right: 0;
+        padding-right: 1rem;
+        padding:8rem 2rem 2rem;
+    }
+    .main_heading{
+        font-size: 2rem;
+    }
+    .main_subheading{
+        font-size: 1.7rem;
+    }
+    .main_logo{
+        height: 50%;
+        width: 50%;
+    }
+    .book_button{
+        font-size:2.1rem;
+        line-height: 35px;
+    }
+    /* ABOUTUS */
+    .group2{
+        background-size: cover;
+    }
+    .aboutus_heading{
+        font-size: 2.1rem;
+    }
+    /* MENU */
+    .group3{
+        background-size: cover;
+    }
+    .menu_banner{
+        padding-top: 15rem;
+    }
+    .menu_para{
+        margin: 6.13rem auto 0;
+    }
+    .menu_second{
+        margin: 7rem auto 0;
+        font-size: 2rem;
+    }
+    .text-style {
+        font-size: 2.7rem; /* 67.62px / 16px = 4.22625rem */
+      }
+    .end_para{
+        font-size: 2rem;
+    }
+    /* GALLERY_SECTION */
+    .group4{
+        background-size: cover;
+    }
+    .gallery_heading{
+        font-size: 1.5 rem;
+    }
+    .gallery_imagediv{
+        padding-left: 3rem;
+        text-align: center;
+      }
+    /* BOOKNOW */
+    .group5{
+        background-size: cover;
+    }
+    .inputcontainer{
+        padding-left: 2rem;
+    }
+    
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:13rem 3.125rem;
+    } 
+    .footer_icons{
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+}
+input[type="email"],
+textarea
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: rgba(226, 28, 28, 0.627);;
+    color: black;
+}

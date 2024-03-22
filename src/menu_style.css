@@ -1,0 +1,14 @@
+.tab th {
+  border: 1px solid white;
+  background-color: black;
+  color: #ffc901;
+   text-align: center;
+  line-height: 2.5rem;
+}
+.tab td {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 2.5rem;
+}
